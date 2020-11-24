@@ -16,20 +16,20 @@ export default {
 .SectionHero {
   padding: 100px;
   text-align: center;
-  background: var(--main-background-color);
+  background: var(--color-foam);
 
   > h1 {
     margin: 0 auto;
     max-width: 700px;
     font-size: 50px;
-    color: var(--main-brand-color);
+    color: var(--color-victoria);
   }
 
   > p {
     font-size: 16px;
     font-weight: 300;
     margin: 50px 0 30px;
-    color: var(--main-text-color);
+    color: var(--color-mine-shaft);
   }
 
   > button {
@@ -38,8 +38,8 @@ export default {
     padding: 16px 40px;
     font-size: 16px;
     font-weight: bolder;
-    background: var(--main-brand-color);
-    color: var(--action-button-text-color);
+    background: var(--color-victoria);
+    color: var(--color-foam);
     cursor: pointer;
   }
 }

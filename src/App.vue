@@ -1,16 +1,16 @@
 <template>
-  <div id="app" class="colors concepts entities">
+  <div id="app">
     <SectionHero />
-    <SectionHero class="concepts-dark entities-dark" />
+    <SectionCards />
   </div>
 </template>
 
 <script>
 import SectionHero from '@/components/SectionHero'
-// https://medium.com/welldone-software/css-theme-organization-best-practices-a8e375d92c7c
+import SectionCards from '@/components/SectionCards'
 
 export default {
   name: 'App',
-  components: { SectionHero },
+  components: { SectionHero, SectionCards },
 }
 </script>
