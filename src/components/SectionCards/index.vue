@@ -44,7 +44,7 @@ export default {
   &__card-item {
     padding: 30px;
     display: flex;
-    flex: 0 0 250px;
+    flex: 1 0 250px;
     flex-flow: column nowrap;
     min-height: 300px;
     border-radius: 10px;
@@ -53,13 +53,17 @@ export default {
 
     > h3 {
       font-size: 26px;
-      margin-bottom: 16px;
       color: white;
     }
 
     > p {
       line-height: 1.6;
       color: #b1b1b1;
+    }
+
+    > h3,
+    p {
+      margin-bottom: 16px;
     }
 
     > button {
