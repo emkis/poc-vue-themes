@@ -6,5 +6,6 @@ export const colors = Object.freeze({
   honeysuckle: '#f1fa8c',
   perfume: '#bd93f9',
   anakiwa: '#8be9fd',
-  mischka: '#e1e1e6',
+  bombay: '#aeaeb2',
+  amaranth: '#ee2e5d',
 })
