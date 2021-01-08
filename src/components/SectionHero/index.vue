@@ -14,22 +14,21 @@ export default {
 
 <style lang="scss" scoped>
 .SectionHero {
-  padding: 100px;
+  padding: $section-vertical-padding $section-horizontal-padding;
   text-align: center;
-  background: var(--color-foam);
 
   > h1 {
     margin: 0 auto;
     max-width: 700px;
     font-size: clamp(25px, 5vw, 50px);
-    color: var(--color-victoria);
+    color: var(--main-title);
   }
 
   > p {
     font-size: 16px;
     font-weight: 300;
     margin: 50px 0 30px;
-    color: var(--color-mine-shaft);
+    color: var(--secondary-text);
   }
 
   > button {
@@ -38,8 +37,8 @@ export default {
     padding: 16px 40px;
     font-size: 16px;
     font-weight: bolder;
-    background: var(--color-victoria);
-    color: var(--color-foam);
+    background: var(--button-bg);
+    color: var(--button-text);
     cursor: pointer;
   }
 }

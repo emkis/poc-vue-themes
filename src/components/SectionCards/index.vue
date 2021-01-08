@@ -30,11 +30,10 @@ export default {
 
 <style lang="scss" scoped>
 .SectionCards {
-  padding: 100px 50px;
-  background: #444;
+  padding: $section-vertical-padding $section-horizontal-padding;
 
   &__card-list {
-    max-width: 1000px;
+    max-width: 1333px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -46,25 +45,26 @@ export default {
   &__card-item {
     padding: 30px;
     display: flex;
-    flex: 1 0 250px;
+    flex: 1 0 263px;
     flex-flow: column nowrap;
+    max-width: 450px;
     min-height: 300px;
     border-radius: 10px;
-    border: 1px solid #7e7e7e;
-    background: #2c2c2c;
+    border: 1px solid var(--card-border);
+    background: var(--card-bg);
 
     > h3 {
       font-size: 26px;
-      color: white;
+      color: var(--main-title);
     }
 
     > p {
       line-height: 1.6;
-      color: #b1b1b1;
+      color: var(--secondary-text);
     }
 
     > h3,
-    p {
+    > p {
       margin-bottom: 16px;
     }
 
@@ -76,8 +76,8 @@ export default {
       padding: 16px 40px;
       font-size: 16px;
       font-weight: bolder;
-      background: var(--color-foam);
-      color: var(--color-mine-shaft);
+      background: var(--card-button-bg);
+      color: var(--card-button-text);
       cursor: pointer;
     }
   }
