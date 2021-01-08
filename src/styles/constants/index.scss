@@ -1,5 +1,7 @@
-@mixin constants {
-  --font-title: 'Inter', sans-serif;
-  --font-body: 'Roboto', sans-serif;
-  --border-radius: 8px;
-}
+$font-title: 'Inter', sans-serif;
+$font-body: 'Roboto', sans-serif;
+
+$line-height-title: 1.36;
+$line-height-body: 1.63;
+
+$border-radius: 8px;
