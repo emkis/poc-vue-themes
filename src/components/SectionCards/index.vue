@@ -59,13 +59,12 @@ export default {
     }
 
     > p {
-      line-height: 1.6;
       color: var(--secondary-text);
     }
 
     > h3,
     > p {
-      margin-bottom: 16px;
+      margin-bottom: 30px;
     }
 
     > button {
