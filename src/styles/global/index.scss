@@ -8,9 +8,11 @@ html, body {
   min-height: 100%;
   font-family: $font-body;
   font-weight: 400;
+  line-height: $line-height-body;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--app-bg);
 }
 
 h1,
@@ -19,4 +21,5 @@ h3,
 h4,
 h5 {
   font-family: $font-title;
+  line-height: $line-height-title;
 }
