@@ -1,9 +1,9 @@
 <template>
-  <div class="SectionHero">
+  <section class="SectionHero">
     <h1>Everything child needs to become a fluent reader independently</h1>
     <p>Learn more. Stress less.</p>
     <button type="button">🎉 App Store</button>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -21,7 +21,7 @@ export default {
   > h1 {
     margin: 0 auto;
     max-width: 700px;
-    font-size: 50px;
+    font-size: clamp(25px, 5vw, 50px);
     color: var(--color-victoria);
   }
 

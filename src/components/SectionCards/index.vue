@@ -1,5 +1,5 @@
 <template>
-  <div class="SectionCards">
+  <section class="SectionCards">
     <ul class="SectionCards__card-list">
       <li class="SectionCards__card-item">
         <h3>Lorem isum</h3>
@@ -19,7 +19,7 @@
         <button>Account</button>
       </li>
     </ul>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -34,6 +34,8 @@ export default {
   background: #444;
 
   &__card-list {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
