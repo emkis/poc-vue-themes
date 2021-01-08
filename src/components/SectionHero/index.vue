@@ -2,7 +2,7 @@
   <section class="SectionHero">
     <h1>Everything child needs to become a fluent reader independently</h1>
     <p>Learn more. Stress less.</p>
-    <button type="button">🎉 App Store</button>
+    <button type="button">Choose your theme</button>
   </section>
 </template>
 
