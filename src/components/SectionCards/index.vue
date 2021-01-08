@@ -2,18 +2,32 @@
   <section class="SectionCards">
     <ul class="SectionCards__card-list">
       <li class="SectionCards__card-item">
+        <div class="SectionCards__tags">
+          <Tag theme="success">New</Tag>
+          <Tag theme="info">Challenge</Tag>
+        </div>
+
         <h3>Lorem isum</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         <button>Register</button>
       </li>
 
       <li class="SectionCards__card-item">
+        <div class="SectionCards__tags">
+          <Tag theme="success">Epic</Tag>
+        </div>
+
         <h3>Sit dollor</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         <button>Sign up</button>
       </li>
 
       <li class="SectionCards__card-item">
+        <div class="SectionCards__tags">
+          <Tag theme="notice">Lipsum</Tag>
+          <Tag theme="info">Sit Dollor</Tag>
+        </div>
+
         <h3>Amet niat</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         <button>Account</button>
@@ -23,8 +37,11 @@
 </template>
 
 <script>
+import Tag from '@/components/Tag'
+
 export default {
   name: 'SectionCards',
+  components: { Tag },
 }
 </script>
 
@@ -79,6 +96,13 @@ export default {
       color: var(--card-button-text);
       cursor: pointer;
     }
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
   }
 }
 </style>
