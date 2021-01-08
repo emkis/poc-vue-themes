@@ -49,7 +49,7 @@ export default {
     flex-flow: column nowrap;
     max-width: 450px;
     min-height: 300px;
-    border-radius: 10px;
+    border-radius: $border-radius;
     border: 1px solid var(--card-border);
     background: var(--card-bg);
 
@@ -71,7 +71,7 @@ export default {
       margin-top: auto;
 
       border: 0;
-      border-radius: 10px;
+      border-radius: $border-radius;
       padding: 16px 40px;
       font-size: 16px;
       font-weight: bolder;

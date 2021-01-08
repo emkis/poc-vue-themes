@@ -33,7 +33,7 @@ export default {
 
   > button {
     border: 0;
-    border-radius: 10px;
+    border-radius: $border-radius;
     padding: 16px 40px;
     font-size: 16px;
     font-weight: bolder;
