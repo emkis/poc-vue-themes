@@ -105,16 +105,17 @@ export default {
 
     > h3 {
       font-size: 26px;
+      margin-bottom: 15px;
       color: var(--main-title);
     }
 
     > p {
       color: var(--secondary-text);
+      margin-bottom: 30px;
     }
 
-    > h3,
-    > p {
-      margin-bottom: 30px;
+    > button {
+      margin-top: auto;
     }
   }
 
