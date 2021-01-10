@@ -9,5 +9,7 @@ export const colors = Object.freeze({
   perfume: '#bd93f9',
   anakiwa: '#8be9fd',
   bombay: '#aeaeb2',
+  tundora: '#444',
+  alto: '#ddd',
   amaranth: '#ee2e5d',
 })
