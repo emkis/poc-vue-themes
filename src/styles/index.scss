@@ -1,2 +1,10 @@
 @import 'global/index.scss';
 @import 'themes/index.scss';
+
+:root {
+  --tag-text: #{$color-black};
+  --tag-success: #{$color-screaming-green};
+  --tag-notice: #{$color-honeysuckle};
+  --tag-surprise: #{$color-perfume};
+  --tag-info: #{$color-anakiwa};
+}
