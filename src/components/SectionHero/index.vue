@@ -2,19 +2,22 @@
   <section class="SectionHero">
     <h1>Everything child needs to become a fluent reader independently</h1>
     <p>Learn more. Stress less.</p>
-    <button type="button">Choose your theme</button>
+    <Button theme="primary">Choose your theme</Button>
   </section>
 </template>
 
 <script>
+import Button from '@/components/Button'
+
 export default {
   name: 'SectionHero',
+  components: { Button },
 }
 </script>
 
 <style lang="scss" scoped>
 .SectionHero {
-  padding: $section-vertical-padding $section-horizontal-padding;
+  padding: ($section-vertical-padding + 20px) $section-horizontal-padding;
   text-align: center;
 
   > h1 {
@@ -29,17 +32,6 @@ export default {
     font-weight: 300;
     margin: 50px 0 30px;
     color: var(--secondary-text);
-  }
-
-  > button {
-    border: 0;
-    border-radius: $border-radius;
-    padding: 16px 40px;
-    font-size: 16px;
-    font-weight: bolder;
-    background: var(--button-bg);
-    color: var(--button-text);
-    cursor: pointer;
   }
 }
 </style>

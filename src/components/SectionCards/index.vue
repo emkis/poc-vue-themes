@@ -9,7 +9,7 @@
 
         <h3>Lorem isum</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <button>Register</button>
+        <Button>Register</Button>
       </li>
 
       <li class="SectionCards__card-item">
@@ -19,7 +19,7 @@
 
         <h3>Sit dollor</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <button>Sign up</button>
+        <Button>Sign up</Button>
       </li>
 
       <li class="SectionCards__card-item">
@@ -30,7 +30,39 @@
 
         <h3>Amet niat</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <button>Account</button>
+        <Button>Account</Button>
+      </li>
+
+      <li class="SectionCards__card-item">
+        <div class="SectionCards__tags">
+          <Tag theme="success">Epic</Tag>
+        </div>
+
+        <h3>Sit dollor</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <Button>Sign up</Button>
+      </li>
+
+      <li class="SectionCards__card-item">
+        <div class="SectionCards__tags">
+          <Tag theme="success">New</Tag>
+          <Tag theme="info">Challenge</Tag>
+        </div>
+
+        <h3>Lorem isum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <Button>Register</Button>
+      </li>
+
+      <li class="SectionCards__card-item">
+        <div class="SectionCards__tags">
+          <Tag theme="notice">Lipsum</Tag>
+          <Tag theme="info">Sit Dollor</Tag>
+        </div>
+
+        <h3>Amet niat</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <Button>Account</Button>
       </li>
     </ul>
   </section>
@@ -38,10 +70,11 @@
 
 <script>
 import Tag from '@/components/Tag'
+import Button from '@/components/Button'
 
 export default {
   name: 'SectionCards',
-  components: { Tag },
+  components: { Tag, Button },
 }
 </script>
 
@@ -50,7 +83,7 @@ export default {
   padding: $section-vertical-padding $section-horizontal-padding;
 
   &__card-list {
-    max-width: 1333px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +95,7 @@ export default {
   &__card-item {
     padding: 30px;
     display: flex;
-    flex: 1 0 263px;
+    flex: 1 300px;
     flex-flow: column nowrap;
     max-width: 450px;
     min-height: 300px;
@@ -82,19 +115,6 @@ export default {
     > h3,
     > p {
       margin-bottom: 30px;
-    }
-
-    > button {
-      margin-top: auto;
-
-      border: 0;
-      border-radius: $border-radius;
-      padding: 16px 40px;
-      font-size: 16px;
-      font-weight: bolder;
-      background: var(--card-button-bg);
-      color: var(--card-button-text);
-      cursor: pointer;
     }
   }
 
