@@ -1,3 +1,11 @@
 [data-theme="light"] {
-
+  --app-bg: #{$color-white};
+  --main-title: #{$color-cinder};
+  --primary-text: #{$color-black};
+  --secondary-text: #{$color-tundora};
+  --button-primary-bg: #{$color-amaranth};
+  --button-default-bg: #{$color-cinder-light};
+  --button-text: #{$color-white};
+  --card-bg: #{$color-alto};
+  --card-border: #{$color-tundora};
 }
